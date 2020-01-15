@@ -1,0 +1,241 @@
+<resources>
+    <string name="app_name">Maintenance</string>
+    <string name="txt_fams">FAMS</string>
+    <string name="text_loginId">Login Id</string>
+    <string name="text_password">Password</string>
+    <string name="text_device_name">Device Name</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    //server setting
+    <string name="text_setting">Server Setting</string>
+    <string name="txt_api_server_setting">API Server Setting</string>
+    <string name="txt_protocol">Protocol</string>
+    <string name="txt_domain_name">Domain Name</string>
+    <string name="txt_ip_address">IP Address</string>
+    <string name="txt_contents_path">Contents Path</string>
+
+    //title text
+    <string name="title_t3k">T3K</string>
+    <string name="title_technology">Technology</string>
+    <string name="title_fams">Fixed Asset Management System</string>
+    <string name="title_maintenance">Maintenance</string>
+    <string name="title_maintenance_detail">Maintenance Detail</string>
+    <string name="title_enter_pin">Enter PIN Number To Continue</string>
+    <string name="title_server_setting">API Server Setting</string>
+    <string name="title_protocol">Protocol</string>
+    <string name="title_no_register">Application Not Register!!!</string>
+    <string name="title_no_license">Application Has No License!!!</string>
+    <string name="title_register_fail">Application Registration Failed!!!</string>
+    <string name="title_registration">Application Registration</string>
+    <string name="title_license_request">Application License Request</string>
+    <string name="title_request_pending">Request Pending!!!</string>
+    <string name="title_request_fail">Request Failed!!!</string>
+    <string name="title_no_extra_license">No Extra License!!!</string>
+    <string name="title_device_inactive">Device In-Active</string>
+    <string name="select_schedule">Select Schedule Plan</string>
+    <string name="select_location">Select Location</string>
+    <string name="selected_location">Selected Locations</string>
+    <string name="title_history">History</string>
+    <string name="downloadLocation">Select Location For Maintenance</string>
+    <string name="uploadLocation">Select Location For Upload</string>
+    <string name="dialog_location_title">Select Location For Download</string>
+    <string name="dialog_session_expired">Session Expired!
+        \n
+    Please login again!</string>
+    <string name="title_upload_confirm">Upload Confirm</string>
+    <string name="title_mileage">Mileage</string>
+    <string name="title_download_confirm">Download Confirm</string>
+    <string name="title_condition_list">Condition List</string>
+
+    //edit text
+    <string name="fromDate">From Date</string>
+    <string name="toDate">To Date</string>
+    <string name="write_remark">Write remark text!</string>
+    <string name="ed_current_unit">Write Current Unit!</string>
+
+
+    //error message editText
+    <string name="error_empty_domain_name">Domain Name must not be empty.</string>
+    <string name="error_empty_ip_address">IP Address must not be empty.</string>
+    <string name="error_empty_contacts_path">Contacts Path must not be empty.</string>
+    <string name="error_empty_device_name">Device Name must not be empty.</string>
+    <string name="error_empty_login_id">LoginId must not be empty.</string>
+    <string name="error_empty_password">Password must not be empty.</string>
+    <string name="error_invalid_credentials">Invalid Credentials</string>
+    <string name="error_invalid_domain_name">This Domain Name is invalid.</string>
+    <string name="error_invalid_ip_address">This IP Address is invalid.</string>
+    <string name="error_min_password">This password is too short.at least 4 number.</string>
+    <string name="error_max_device_name">Device Name length should not be greater than 30.</string>
+    <string name="empty_login_id">Please enter your LoginID.</string>
+    <string name="empty_password">Please enter your Password.</string>
+    <string name="error_empty_current_unit">Current Unit must not be empty.</string>
+
+    //error message text
+    <string name="error_no_register">Currently, you application is not registered to the FAMS System for using on this device. \n
+        \n
+        To continue, your application and device must be registered.</string>
+    <string name="error_no_license">Currently, you application has no license for using on this device. \n
+        \n
+        To continue, your application must have license key.</string>
+    <string name="error_fail_register">Error occurred when registering your application information to the server.</string>
+    <string name="error_license_request">Requesting license for your application has been successfully finished and it is in pending state. \n
+        \n
+        For next steps, your admin needs to approve license requests</string>
+    <string name="error_license_request_fail">Error occurred when requesting your application license from the server.</string>
+    <string name="error_no_extra_license">Currently, there is no extra license key for your application. \n
+        \n
+        Buy more license key for Maintenance.</string>
+    <string name="error_device_inactive">Currently, your device has been blocked transaction to the server by your administrator.</string>
+    <string name="txt_no_location">No Locations !!!</string>
+    <string name="no_maintenance">No maintenance for this asset!!!</string>
+    <string name="txt_no_uploaded_history">No Uploaded History !!!</string>
+    <string name="txt_no_unit_take">No Unit Take !!!</string>
+    <string name="warning_down_confirm">Are you sure, you went to download assets for selected locations? \n
+        \n
+        We have to make sure because downloading will remove all previous download information and maintenance data from this device.</string>
+    <string name="warning_upload_confirm">Are you sure you went to upload maintenance \n
+        for the selected location?</string>
+
+
+    //err message text
+    <string name="err_contact_administrator">Please contact your administrator.</string>
+    <string name="err_no_license">Request your license by using the following button.</string>
+    <string name="err_no_register">Go for registration by using the following button.</string>
+
+    //simple text
+    <string name="fail">Fail</string>
+    <string name="no_data">No data</string>
+    <string name="success">Success</string>
+    <string name="fa_no">Asset-No :</string>
+    <string name="item_name">Item Name :</string>
+    <string name="condition">Condition :</string>
+    <string name="location">Location  :</string>
+    <string name="cost_center">Cost Center  :</string>
+    <string name="category">Category  :</string>
+    <string name="serial_no">Serial No  :</string>
+    <string name="schedule">Schedule_ID :</string>
+    <string name="schedule_date">Schedule_Date :</string>
+    <string name="description">Description :</string>
+    <string name="space"> : </string>
+    <string name="start_date">Start Date </string>
+    <string name="pause_date">Pause Date </string>
+    <string name="resume_date">Resume Date </string>
+    <string name="finish_date">Finish Date </string>
+    <string name="action_datetime_history">Status Change History</string>
+    <string name="select_maintenance">Select or Scan Asset for Maintenance</string>
+    <string name="no_schedules">No schedule for this asset!!!</string>
+    <string name="no_upload_data">There is no maintenance to upload!</string>
+    <string name="total_fixed_assets">All downloaded assets :</string>
+    <string name="total_maintenance">Maintenance for upload :</string>
+    <string name="all_uploaded">No Maintenance to upload!</string>
+    <string name="sch_new">NEW</string>
+    <string name="sch_start">STARTED</string>
+    <string name="sch_pause">PAUSED</string>
+    <string name="sch_resume">RESUMED</string>
+    <string name="sch_finish">FINISHED</string>
+    <string name="txt_assets">Assets</string>
+    <string name="txt_asset">Asset</string>
+    <string name="txt_maintenances">Maintenances</string>
+    <string name="txt_maintenance">Maintenance</string>
+    <string name="time_schedule">TIME SCHEDULE</string>
+    <string name="unit_schedule">UNIT SCHEDULE</string>
+    <string name="no_schedule">NO SCHEDULE</string>
+    <string name="txt_opr">Operational</string>
+
+
+    //button text
+    <string name="btn_login">Login</string>
+    <string name="btn_continue">continue</string>
+    <string name="btn_text_register">Register</string>
+    <string name="btn_text_license">Request</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_check">Check</string>
+    <string name="btn_save">Save</string>
+    <string name="txt_buttonLogin">Login</string>
+    <string name="btn_download">Download</string>
+    <string name="btn_choose">Choose</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_resume">Resume</string>
+    <string name="btn_finish">Finish</string>
+    <string name="btn_history">History</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_upload">Upload</string>
+    <string name="btn_done">Done</string>
+    <string name="btn_go_for_upload">GoForUpload</string>
+
+
+    //navigation text
+    <string name="nav_title_home">Home</string>
+    <string name="nav_title_download">Download</string>
+    <string name="nav_title_maintenance">Maintenance</string>
+    <string name="nav_title_unit_taking">Unit Taking</string>
+    <string name="nav_title_upload">Upload</string>
+    <string name="nav_title_location">Location</string>
+    <string name="nav_title_uploaded">Uploaded Data</string>
+    <string name="nav_title_exit">Exit</string>
+
+    //tab title text
+    <string name="textTabTitle1">Schedule</string>
+    <string name="textTabTitle2">Maintenance</string>
+
+    //menu text
+    <string name="menu_camera">Camera</string>
+    <string name="menu_reload">Location Sync</string>
+
+    //content description
+    <string name="img_visible">visible password</string>
+    <string name="img_profile_pic">Profile Picture</string>
+    <string name="img_fams_logo">fams logo</string>
+    <string name="reload">reload</string>
+    <string name="img_camera">camera</string>
+    <string name="img_image">Image</string>
+    <string name="img_time">Time</string>
+    <string name="img_remove">Image Remove</string>
+    <string name="img_maintenance">is Maintenance</string>
+    <string name="img_upload_maintenance">uploaded Maintenance</string>
+
+
+    //protocol arrays for spinner
+    <string-array name="protocol_arrays">
+        <item>HTTP </item>
+        <item>HTTPS (Secure HTTP)</item>
+    </string-array>
+
+
+    //scan
+    <string name="scan_init_failure_info">Scanning Data Fail! Please Retry</string>
+
+    //QRCode scan text
+    <string name="turn_off_flashlight">FlashLight on</string>
+    <string name="turn_on_flashlight">flashLight off</string>
+    <string name="message">Place a barcode inside the viewfinder rectangle to scan it.</string>
+    <string name="btn_next">Next</string>
+    <string name="menu_search">Search FA.....</string>
+    <string name="menu_qrcode">QRCode</string>
+
+    //barcode scan text
+    <string name="scan_setup">Scan Setup</string>
+    <string name="scan_start_open_support">Support Starting Up the Scan Service</string>
+    <string name="scan_out_mode">Scan Out Mode</string>
+    <string name="scan_out_mode_1">Quick Scan</string>
+    <string name="scan_out_mode_2">Simulation Keyboard</string>
+    <string name="scan_out_mode_3">BroadCast</string>
+    <string name="scan_effect">Scan Effect</string>
+    <string name="scan_effect_sound">Sound Effect</string>
+    <string name="scan_effect_vibration">Vibration Effect</string>
+    <string name="scan_suffix">Scan Suffix(Quick scan, BroadCast Mode)</string>
+    <string name="scan_suffix_enter">Enter</string>
+    <string name="scan_suffix_semicolon">Semicolon</string>
+    <string name="scan_suffix_tab">TAB</string>
+    <string name="scan_suffix_none">None</string>
+    <string name="custom_prefix">custom prefix</string>
+    <string name="custom_suffix">custom suffix</string>
+    <string name="save_custom_predix_suffix">save prefix suffix</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
